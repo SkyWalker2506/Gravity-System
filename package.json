@@ -2,7 +2,7 @@
   "name": "com.bytegames.gravity-system",
   "version": "1.0.0",
   "displayName": "Gravity System",
-  "description": "A helper system for drawing lines.",
+  "description": "Gravity system.",
   "unity": "2017.1",
   "keywords": [
     "gravity",
