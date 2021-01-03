@@ -42,7 +42,7 @@ namespace GravitySystem
                 pullableObject.GetComponent<MeshRenderer>().material.color = pullableColor;
                 pullableObject.transform.position = new Vector3(Random.Range(-10, 10), Random.Range(0, 10), Random.Range(-10, 10));
                 var pullData = ScriptableObject.CreateInstance<PullData>();
-                pullData.Init(pullableObject.transform, PullType.Puller, Random.Range(minPullPower, maxPullPower));
+                pullData.Init(pullableObject.transform, PullType.Pullable, Random.Range(minPullPower, maxPullPower));
                 gravityManager.AddGravityObject(pullData);
 
             }
