@@ -10,7 +10,7 @@ namespace GravitySystem
         List<PullData> pullerDatas = new List<PullData>();
 
         Coroutine gravityCoroutine;
-        float minDistance = .1f;
+        float minDistance = .5f;
 
 
         void OnDestroy()
